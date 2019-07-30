@@ -15,7 +15,11 @@ let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the
         } else {
             buildMeUp += theWordArray[i] + " ";
         }
-       console.log(sentence)
+     
         
-    }}
+    }
+  return buildMeUp
+}
+console.log(addExcitement(sentence, "!", 1))
     addExcitement(sentence, "!")
+    
